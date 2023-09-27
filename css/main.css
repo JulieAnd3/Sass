@@ -1,28 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@500;900&family=Sedgwick+Ave+Display&display=swap");
 * {
   box-sizing: border-box;
 }
 
-body header {
+.float-l-50, body main, body header {
   float: left;
   width: 50%;
 }
+
+body {
+  font-family: "Mooli", sans-serif;
+  margin: 0;
+}
+body header {
+  padding: 1rem;
+}
+body header nav ul {
+  padding: 0;
+  margin: 0;
+}
+body header nav ul li {
+  display: inline-block;
+}
+body header #logo {
+  font-family: "Sedgwick Ave Display", cursive;
+}
 body header #contact {
-  background-color: rgb(95, 168, 204);
+  background-color: #688f97;
   padding: 1rem;
   float: right;
+}
+body header #contact:hover {
+  background-color: #000;
+  color: #fff;
 }
 body header a {
   text-decoration: none;
 }
+body header a:hover {
+  text-decoration: underline;
+}
 body main {
-  float: left;
-  width: 50%;
+  padding: 1rem;
 }
 body figure {
   float: right;
   width: 50%;
   margin: 0;
 }
+body figure img {
+  width: 100%;
+}
 body footer {
   clear: both;
+  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */
