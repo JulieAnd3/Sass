@@ -1,10 +1,32 @@
-body{
-    h1{
-        color: pink;
-    }
+*{
+    box-sizing: border-box;
 }
 
-/*h1{
-    color: blue;
+body{
+    header{
+        float: left;
+        width: 50%;
+    
+    #contact{
+        background-color: rgb(95, 168, 204);
+        padding: 1rem;
+        float: right;
+    }
+
+     a{
+            text-decoration: none;
+    }
+    }
+    main{
+        float: left;
+        width: 50%;
+    }
+    figure{
+        float: right;
+        width: 50%;
+        margin: 0;
+    }
+    footer{
+        clear: both;
+    }
 }
-*/
